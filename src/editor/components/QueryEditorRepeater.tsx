@@ -25,6 +25,7 @@ export const QueryEditorRepeater: React.FC<Props> = (props) => {
       const { expressions } = value;
       const next = [...expressions];
 
+      debugger;
       if (expression) {
         next.splice(index, 1, expression);
       } else {
