@@ -75,6 +75,7 @@ export const mockDatasource = () =>
         links: [],
       },
     },
+    readOnly: true,
   });
 
 export const mockQuery: KustoQuery = {
